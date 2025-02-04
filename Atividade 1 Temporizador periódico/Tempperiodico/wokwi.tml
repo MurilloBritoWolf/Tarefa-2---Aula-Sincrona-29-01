@@ -1,25 +1,4 @@
-[project]
-name = "Atividade 1 - Semáforo"
-description = "Semáforo com temporização de 3 segundos para cada mudança de sinal."
-board = "pico-w"
-
-[[parts]]
-type = "led"
-id = "led_vermelho"
-x = 100
-y = 80
-pins = { anode = 11 }
-
-[[parts]]
-type = "led"
-id = "led_amarelo"
-x = 100
-y = 120
-pins = { anode = 12 }
-
-[[parts]]
-type = "led"
-id = "led_verde"
-x = 100
-y = 160
-pins = { anode = 13 }
+[wokwi]
+version = 1
+firware = 'build/Tempperiodico.uf2'
+elf = 'build/Tempperiodico.elf'

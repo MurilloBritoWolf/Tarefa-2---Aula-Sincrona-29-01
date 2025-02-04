@@ -1,32 +1,4 @@
-[project]
-name = "Atividade 2 - Temporizador One-Shot"
-description = "Acionamento de LEDs via pushbutton com sequência de desligamento em intervalos de 3000ms."
-board = "pico-w"
-
-[[parts]]
-type = "led"
-id = "led_azul"
-x = 100
-y = 80
-pins = { anode = 11 }
-
-[[parts]]
-type = "led"
-id = "led_vermelho"
-x = 100
-y = 120
-pins = { anode = 12 }
-
-[[parts]]
-type = "led"
-id = "led_verde"
-x = 100
-y = 160
-pins = { anode = 13 }
-
-[[parts]]
-type = "pushbutton"
-id = "botao"
-x = 180
-y = 120
-pins = { signal = 5 }
+[wokwi]
+version = 1
+firware = 'build/tempdedisparo.uf2'
+elf = 'build/tempdedisparo.elf'
