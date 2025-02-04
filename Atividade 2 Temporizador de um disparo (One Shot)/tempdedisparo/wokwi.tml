@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firware = 'build/tempdedisparo.uf2'
+firmware = 'build/tempdedisparo.uf2'
 elf = 'build/tempdedisparo.elf'

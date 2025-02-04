@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firware = 'build/Tempperiodico.uf2'
+firmware = 'build/Tempperiodico.uf2'
 elf = 'build/Tempperiodico.elf'
